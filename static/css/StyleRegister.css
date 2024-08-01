@@ -1,0 +1,81 @@
+/* Estilo General */
+body {
+    background: #789ae4; /* Fondo verde claro */
+    font-family: Arial, sans-serif; /* Fuente sencilla y legible */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura completa de la ventana */
+    margin: 0; /* Eliminar márgenes predeterminados */
+}
+
+/* Estilo del Título */
+h1 {
+    text-align: center; /* Centrar el título */
+    color: #333; /* Color de texto oscuro para contraste */
+    margin-bottom: 30px; /* Ajustar el margen inferior según sea necesario */
+}
+
+
+/* Estilo del Formulario */
+form {
+    background-color: #fff; /* Fondo blanco para el formulario */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    width: 100%; /* Ancho completo dentro de su contenedor */
+    max-width: 400px; /* Ancho máximo para que no se extienda demasiado */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    box-sizing: border-box; /* Asegura que el padding no afecta el ancho total */
+    text-align: center; /* Centramos el contenido del formulario */
+}
+
+/* Estilo de los Labels */
+label {
+    display: block; /* Cada etiqueta en una nueva línea */
+    margin-bottom: 5px; /* Espaciado inferior */
+    font-size: 16px; /* Tamaño de fuente moderado */
+    color: #333; /* Color de texto oscuro */
+}
+
+/* Estilo de los Inputs */
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    width: 100%; /* Ancho completo del contenedor */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 15px; /* Espaciado inferior */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 14px; /* Tamaño de fuente moderado */
+    box-sizing: border-box; /* Asegura que el padding no afecta el ancho total */
+    background-color: #f9f9f9; /* Fondo claro para inputs */
+    color: #333; /* Color de texto oscuro */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Transiciones suaves para bordes y sombra */
+}
+
+/* Estilo de los Inputs en Focus (cuando son seleccionados) */
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus {
+    border-color: #66afe9; /* Cambiar el color del borde cuando está en foco */
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6); /* Añadir sombra azul suave */
+    outline: none; /* Eliminar el borde de enfoque predeterminado */
+}
+
+/* Estilo del Botón */
+button {
+    width: 100%; /* Ancho completo del formulario */
+    padding: 10px; /* Espaciado interno */
+    font-size: 18px; /* Tamaño de fuente */
+    background-color: #333; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de puntero */
+    box-sizing: border-box; /* Asegura que el padding no afecta el ancho total */
+}
+
+/* Cambio de color del botón al pasar el ratón */
+button:hover {
+    background-color: #555; /* Fondo más claro al pasar el ratón */
+}
